@@ -11,7 +11,9 @@ import java.io.StringWriter;
 import java.lang.reflect.UndeclaredThrowableException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
@@ -69,7 +71,15 @@ public class GrowPalmTree {
 	private static final String REFERENCE = "reference";
 	private static final String REFERENCE_LINK = "referenceLink";
 	private static final String WHY = "why";
-	private static final String SITES = null;
+	private static final String SITES = "sites";
+	private static final String SEASON_NAME_ENGLISH = "seasonNameEnglish";
+	private static final String WEATHER_ICON = "weatherIcon";
+	private static final String SEASON_NAME = "seasonName";
+	private static final String SEASON_MONTHS = "seasonMonths";
+	private static final String SEASON_DESCRIPTION = "description";
+	private static final String FEATURES = "features";
+	private static final String SEASONS = "seasons";
+	private static final String CALENDAR_ID = "calendarId";
 
 	private final Map<String, Object> results = new ConcurrentHashMap<>();
 
@@ -316,6 +326,30 @@ public class GrowPalmTree {
 		}
 
 		return this;
+	}
+
+	public GrowPalmTree season(String seasonNameEnglish, String weatherIcon, String seasonName, String seasonMonths,
+			String description, List<Map<String, Object>> features) {
+		Map<String, Object> nextSeason = new ConcurrentHashMap<>();
+
+		nextSeason.put(SEASON_NAME_ENGLISH, seasonNameEnglish);
+		nextSeason.put(WEATHER_ICON, weatherIcon);
+		nextSeason.put(SEASON_NAME, seasonName);
+		nextSeason.put(SEASON_MONTHS, seasonMonths);
+		nextSeason.put(SEASON_DESCRIPTION, description);
+		nextSeason.put(FEATURES, features);
+
+		@SuppressWarnings("unchecked")
+		List<Map<String, Object>> list = (List<Map<String, Object>>) this.results.computeIfAbsent(SEASONS,
+				k -> new ArrayList<Map<String, Object>>());
+		list.add(nextSeason);
+
+		return this;
+	}
+
+	public void build(OutputStream out) throws IOException {
+		this.results.put(CALENDAR_ID, this.id.toString());
+		write(this.results, out);
 	}
 
 }
