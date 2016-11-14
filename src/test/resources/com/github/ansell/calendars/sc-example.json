@@ -1,0 +1,71 @@
+{
+
+    "calendarId" : "c10b79cf-e9cd-4979-b7e3-c75cf4727275",
+    "calendarName" : "Larrakia",
+    "calendarStatus" : "published",
+    "description" : "Test1",
+    "externalLink" : "",
+    "how" : "",
+    "imageUrl" : "http://www.larrakia.csiro.au/images/calendars/CSIRO_Gulumoerrgin_(Larrakia)_seasonal-calendar_A3(print).jpg",
+    "license" : "",
+    "limitations" : "",
+    "multimedia" : "",
+    "organisation" : {
+        "contactName" : "URL",
+        "name" : "Organisation Name",
+        "orgDescription" : "asdsadsa"
+    },
+    "reference" : "",
+    "referenceLink" : "",
+    "seasons" : [ 
+        {
+            "seasonNameEnglish" : "Test",
+            "features" : [ 
+                {
+                    "featureNameEnglish" : "English feature name",
+                    "thumbImages" : [ 
+                        {
+                            "url" : "http://images.ala.org.au/store/1/5/4/e/d2480076-2a8f-4750-8990-0344a90be451/thumbnail"
+                        }, 
+                        {
+                            "url" : "http://images-dev.ala.org.au/data/images/store/9/d/c/5/4d1a6d32-61c5-478c-b7bd-46b9a3ad5cd9/thumbnail"
+                        }, 
+                        {
+                            "url" : "http://images-dev.ala.org.au/data/images/store/d/9/e/6/148127ca-efa7-456d-a67d-479bde9c6e9d/thumbnail"
+                        }
+                    ],
+                    "images" : [],
+                    "speciesName" : "Crocodylus porosus Schneider",
+                    "speciesLink" : "http://bie.ala.org.au/species/Crocodylus+porosus",
+                    "featureName" : "Danggalaba - Saltwater Croc",
+                    "description" : "Danggalaba (Saltwater Crocodile) are laying their eggs. Damibila (Barramundi) are multiplying upstream on the floodplains.\n\nSaltwater crocodiles (Crocodylus porosus) can be very aggressive and territorial. They build nests from grass and leaves, and lay around 50 eggs inside the warm decomposing vegetation. Saltwater Crocodiles inhabit mangrove swamps, river mouths and coastal marshes of northern Australia, and are strictly carnivorous. Barramundi (Lates calcarifer) can live in both fresh and salt water. Low-lying areas become flooded during monsoonal rains and provide an ideal habitat for juvenile Barramundi."
+                }
+            ],
+            "weatherIcon" : "rainy",
+            "seasonName" : "Dalay",
+            "seasonMonths" : "January",
+            "description" : "Monsoon Season"
+        }
+    ],
+    "sites" : {
+        "features" : [ 
+            {
+                "geometry" : {
+                    "coordinates" : [ 
+                        128.14453125, 
+                        -21.0434912168035
+                    ],
+                    "type" : "Point"
+                },
+                "type" : "Feature",
+                "properties" : {
+                    "point_type" : "Circle",
+                    "radius" : 877764.340445275
+                }
+            }
+        ],
+        "type" : "FeatureCollection"
+    },
+
+    "why" : ""
+}

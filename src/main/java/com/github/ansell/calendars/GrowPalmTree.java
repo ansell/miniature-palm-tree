@@ -1,6 +1,8 @@
 package com.github.ansell.calendars;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
@@ -8,6 +10,7 @@ import java.util.Map;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
+import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
@@ -47,6 +50,12 @@ public class GrowPalmTree {
 		final JsonGenerator jw = JSON_FACTORY.createGenerator(new OutputStreamWriter(output, StandardCharsets.UTF_8));
 		jw.useDefaultPrettyPrinter();
 		jw.writeObject(calendar);
+	}
+
+	@SuppressWarnings("unchecked")
+	public static Map<String, Object> read(final InputStream input) throws IOException {
+		final JsonParser jp = JSON_FACTORY.createParser(new InputStreamReader(input, StandardCharsets.UTF_8));
+		return (Map<String, Object>) jp.readValueAs(Map.class);
 	}
 
 }
