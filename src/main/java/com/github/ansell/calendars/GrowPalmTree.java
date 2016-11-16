@@ -1,7 +1,6 @@
 package com.github.ansell.calendars;
 
 import java.io.ByteArrayInputStream;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -20,8 +19,6 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.geotools.feature.FeatureCollection;
 import org.geotools.geojson.feature.FeatureJSON;
-import org.opengis.feature.Feature;
-import org.opengis.feature.simple.SimpleFeature;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
@@ -45,9 +42,9 @@ public class GrowPalmTree {
 
 	private final UUID id;
 
-	private static final String NAME = "name";
+	private static final String CALENDAR_NAME = "calendarName";
 
-	private static final String STATUS = "status";
+	private static final String CALENDAR_STATUS = "calendarStatus";
 
 	private static final String DESCRIPTION = "description";
 
@@ -144,7 +141,7 @@ public class GrowPalmTree {
 	 * @return The builder object so that it can be fluently reused.
 	 */
 	public GrowPalmTree name(String name) {
-		this.results.put(NAME, name);
+		this.results.put(CALENDAR_NAME, name);
 		return this;
 	}
 
@@ -156,7 +153,7 @@ public class GrowPalmTree {
 	 * @return The builder object so that it can be fluently reused.
 	 */
 	public GrowPalmTree status(String status) {
-		this.results.put(STATUS, status);
+		this.results.put(CALENDAR_STATUS, status);
 		return this;
 	}
 
