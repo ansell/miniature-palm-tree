@@ -1,0 +1,437 @@
+{
+    "calendarName": "Larrakia",
+    "seasons": [
+        {
+            "months": "January, February, March",
+            "weatherIcon": "rainy",
+            "seasonName": "Dalay",
+            "description": "Monsoon Season",
+            "categories": [
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/1/5/4/e/d2480076-2a8f-4750-8990-0344a90be451/thumbnail"
+                        },
+                        {
+                            "url": "http://images-dev.ala.org.au/data/images/store/9/d/c/5/4d1a6d32-61c5-478c-b7bd-46b9a3ad5cd9/thumbnail"
+                        },
+                        {
+                            "url": "http://images-dev.ala.org.au/data/images/store/d/9/e/6/148127ca-efa7-456d-a67d-479bde9c6e9d/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "Crocodylus porosus Schneider",
+                    "speciesLink": "http://bie.ala.org.au/species/Crocodylus+porosus",
+                    "description": "Danggalaba (Saltwater Crocodile) are laying their eggs. Damibila (Barramundi) are multiplying upstream on the floodplains.\n\nSaltwater crocodiles (Crocodylus porosus) can be very aggressive and territorial. They build nests from grass and leaves, and lay around 50 eggs inside the warm decomposing vegetation. Saltwater Crocodiles inhabit mangrove swamps, river mouths and coastal marshes of northern Australia, and are strictly carnivorous. Barramundi (Lates calcarifer) can live in both fresh and salt water. Low-lying areas become flooded during monsoonal rains and provide an ideal habitat for juvenile Barramundi.",
+                    "categoryName": "Danggalaba - Saltwater Croc"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/2/b/9/c/263a1015-e4f0-4091-8800-d74fc690c9b2/thumbnail"
+                        },
+                        {
+                            "url": "http://images-dev.ala.org.au/data/images/store/9/d/c/5/4d1a6d32-61c5-478c-b7bd-46b9a3ad5cd9/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "Manmanma (Cyclones) are prevalent at this time of year.\n\nOld people relive their first-hand experiences of their encounters with cyclones before settlement, and how they coped with these scary times as children. Unusual behaviour by animals, such as birds, ants and other insects, alerts many Aboriginal people to be on the watch for cyclones.",
+                    "categoryName": "Manmanma - Cyclones"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://il8.picdn.net/shutterstock/videos/1638709/thumb/1.jpg"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nMindilima (Big Red Apple) and Mindimilma (Pink Wild Apple) are fruiting.\n\nBig Red Apples (Syzygium suborbiculare) grow on a large tree with showy white flowers that form prominent ribbed apple-like red fruits. The Big Red Apple can be eaten raw when it has fallen from the tree. The Pink Wild Apple (Syzygium eucalyptoides ssp. bleeseri) is a fire-tolerant small tree. The fruits are fleshy, white and apple-like.",
+                    "categoryName": "Mindilima - Big Red Apple"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://museum.wa.gov.au/sites/default/files/imagecache/wam_v2_article_full_nocrop/att-images/2014/Dilly%20Bags.jpg"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "The Red Dye Plant is fruiting. It is used to dye natural fibres such as Biyarmarrma (Pandanus) and Gwilirrimba (Sand Palm) to make Denela (string bags) and Malarramamba (Pandanus mats).\n\nThe red dye plant (Haemodorrum coccineum) is a perennial herb that has deep red or orange flowers and fruit ideal for making a purple-red dye.",
+                    "categoryName": "Denela - Dilly Bag"
+                }
+            ]
+        },
+        {
+            "months": "March, April",
+            "weatherIcon": "rainbow",
+            "seasonName": "Mayilema",
+            "description": "Spear Grass and Goose Egg Time",
+            "categories": [
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/c/8/c/b/c04326ce-7ad5-491e-b346-27cd4002bc8c/thumbnail"
+                        },
+                        {
+                            "url": "http://images.ala.org.au/store/4/1/0/f/2e071a95-9fe0-4de0-a91e-d3f4b51bf014/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nAt this time of year we collect Biyinba (Magpie Geese eggs) from the floodplains. In the old days canoes and rafts were used to assist in the collection of Biyinba.\n\nBreeding colonies of up to 30,000 Magpie Geese (Anseranas semipalmata) congregate in Top End wetlands. Magpie Geese lay large clutches of eggs (up to 16) compared to other waterfowl.",
+                    "categoryName": "Biyinba - Goose Eggs"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/3/4/e/6/b2078dfe-1ee1-48d2-9f17-3db5426e6e43/thumbnail"
+                        },
+                        {
+                            "url": "http://images.ala.org.au/store/a/0/b/6/7027242c-a73c-4fa5-ade9-8c9ed4fa6b0a/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nAfter the late rains we await the first sign of Birrdibirripba (Dragonflies) who announce that the dry season is here. Native Cherry is fruiting.\n\nHundreds of dragonflies can be seen swarming overhead.The fruits of the native bush cherry (Flacourtia territorialis) can be eaten when they are a reddish-maroon colour.",
+                    "categoryName": "Birrdibirripba - Dragonflies"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/a/1/4/9/547c3561-a404-4ae2-9c38-12d7e57b941a/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "Damibila (Barramundi) move downstream from the floodplains to the seawater. Salmon are plentiful and are caught at the mouth of estuaries. Many saltwater fish have roe, and Red Claw yabbies are plentiful.",
+                    "categoryName": "Damibila - Barramundi"
+                }
+            ]
+        },
+        {
+            "months": "April, May, June",
+            "weatherIcon": "cloudy",
+            "seasonName": "Damibila",
+            "description": "Barramundi and Bush Fruit Season",
+            "categories": [
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/9/1/7/e/6d1185ee-8bf3-422b-b67a-9f25fa51e719/thumbnail"
+                        },
+                        {
+                            "url": "http://images.ala.org.au/store/8/3/0/4/d58345a0-743e-4391-8a0a-e9f2e9474038/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nDamiyumba (Billy Goat Plum) is fruiting. Billirrawarra (Red-tailed Black Cockatoos) eat the fruit now and the seeds later in the year, after the dry season fires.\n\nBilly Goat Plums (Terminalia ferdinandiana) are generally collected off the ground when the fruit are ripe, cream or pale green. The Red-tailed Black Cockatoo (Calyptorhynchus banksii) is the only black cockatoo in the Top End of the Northern Territory. They nest in tree hollows in open forest and often feed in burnt areas.",
+                    "categoryName": "Billirrawarra - Red-tailed Black Cockatoo"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/e/c/4/4/0bcc5845-e1a3-4c71-ad86-79ce23b344ce/thumbnail"
+                        },
+                        {
+                            "url": "http://images.ala.org.au/store/e/c/4/4/0bcc5845-e1a3-4c71-ad86-79ce23b344ce/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nDoedlirra (Green Sea Turtle) are hunted throughout the year except when they are mating and laying eggs. Strict laws decide when Doedlirra can be hunted.\n\nThe Green Sea Turtle (Chelonia mydas) is named after the colour of its fat, not its carapace or shell. Green Sea Turtles are herbivores and nest on Coburg Peninsula and in the Gulf of Carpentaria in northern Australia.",
+                    "categoryName": "Doedlirra - Green Sea Turtle"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/1/d/f/6/d7c5d939-a0eb-478b-be4d-13f42fd56fd1/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nWe eat the seeds from Dundil (Bush Peanut).\n\nThe Bush Peanut (Sterculia quadrifida) is a medium to tall deciduous tree which flowers from February to November and fruits from April to December. The fruits are scarlet red when ripe, and split open to a boat-like shape containing black shiny seeds, which have a peanut taste when peeled.",
+                    "categoryName": "Dundil - Bush Peanut"
+                }
+            ]
+        },
+        {
+            "months": "June, July, August",
+            "weatherIcon": "snowy",
+            "seasonName": "Dinidjanggama",
+            "description": "Heavy Dew Time",
+            "categories": [
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/d/1/4/c/a20314ca-b6a8-47cc-94ab-0b90cc39c41d/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nWoollybutt and Stringybark eucalypts are flowering. Native bees use the flowers\u2019 nectar to make Dadbinggwa (sugarbag) which is collected from tree hollows.\n\nSugarbag is honey made by Australian native stingless bees (Trigona and Austroplebeia spp.). Its flavour is similar to lemon and eucalyptus.",
+                    "categoryName": "Dadbinggwa - sugarbag honey"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/c/d/e/6/caf10a6f-86ae-48e3-9922-6cb3d6636edc/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nThe floodplains are starting to dry and Dambilinggwa (Waterlilies) are in full bloom. Gakingga (Magpie Goose) are feeding with their young.\n\nWaterlillies (Nymphaea violacea) are a floating aquatic herb found in freshwater lagoons and billabongs. They have large round leaves, spectacular flowers and seed pods. Waterlillies are an important food source.",
+                    "categoryName": "Dambilinggwa - Waterlilies"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/4/c/e/4/3d09d58e-bbb5-4725-8162-a1ab77054ec4/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "Fires burn during the night. Dangutjbela (kangaroos) and Milula (wallabies) rely on the fires for the growth of new green grass. Heavy dew dampens the grass in the morning.\n\nAgile Wallabies (Macropus agilis) are the Top End\u2019s most common kangaroo. They feed in large groups on green pick in areas burnt by fire. Antilopine Wallaroos (Macropus antilopinus) live in small groups in grassy woodlands.",
+                    "categoryName": "Milula - Wallabies"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/2/1/2/6/577d11e3-1d44-41b0-ab05-537d303a6212/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "Damaldanggala (Dugong) is hunted now for its meat. In the old days, men hunted from Dapdapma (dugout canoes). The harpoon handle was made from a Eucalyptus or Bloodwood tree, while the point was made from a hard wood such as Deleynggwa (Ironwood or Turkey Bush).\n\nDugongs (Dugong dugon) are large herbivorous marine mammals found in north Australian coastal waters. They are a protected marine species. Dugings are long-lived with a low reproductive rate.",
+                    "categoryName": "Damaldanggala - Dugong"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/6/6/c/e/5afd7c95-359a-494a-967d-0b212bc5ec66/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nMany plants begin to flower in the dry season when the temperature is cool and dry. Woodland trees such as Maminyjuma (Woollybutt), Manigurrma (Stringybark) and Galanggwa (bloodwoods) flower at this time of the year.\n\nThe Darwin Woollybutt (Eucalyptus miniata), Darwin Stringybark (Eucalyptus tetrodonta) and bloodwood (Corymbia bleeseri) are calendar trees to observe seasonal change. These trees are used to make canoes, shelters, spears and woomeras.",
+                    "categoryName": "Maminyjuma - Woollybutt"
+                }
+            ]
+        },
+        {
+            "months": "July, August, September",
+            "weatherIcon": "stormy",
+            "seasonName": "Gurrulwa",
+            "description": "Gurrulwa Guligi - Big Wind Season",
+            "categories": [
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/8/b/5/d/02845312-9284-48b9-acec-2b62927dd5b8/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nBanimadla (Long-necked Turtle) spends time underground waiting for the rains.\n\nLong-necked Turtles (Chelodina rugosa) live in slow-flowing rivers and billabongs. They aestivate during the dry season in the dried mud around swamps. Long-necked Turtles are hunted after the floodplains have been burnt.",
+                    "categoryName": "Banimadla - Long-necked Turtle"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://www.goodcornwallguide.co.uk/wp-content/uploads/2011/05/shells-in-bucket.jpg"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nFlowering Turkey Bush and wattles (Acacia spp.) signal the time to collect Cockles.\n\nTurkey Bush (Calytrix exstipulata) is a bushy shrub with clumps of deep pink-purple star-like flowers.",
+                    "categoryName": "Cockles"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/f/c/2/2/0c348d1d-bccd-483d-bc1d-13b7630c22cf/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nThe flowering of wattles tell you that stingrays are fat and plentiful.\n\nThe wattle (Acacia dimidiata) that is a cue for stingrays is a small tree with broad, coarse foliage and showy, bright yellow flowers. It is a common understorey shrub in Top End open woodlands.",
+                    "categoryName": "Stingray"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/d/3/8/7/76ce417a-fb24-4880-964c-791a6ec6783d/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nWhen Yellow Kapok is flowering it signifies the time for ceremonies and celebrations of life, rebirth and the rejuvenation of people and country.\n\nYellow Kapok (Cochlospermum fraseri) is a slender tree with showy yellow flowers and woody pods that release cotton fibre when ripe. It is often seen growing on roadsides or on rocky slopes.",
+                    "categoryName": "Yellow Kapok"
+                }
+            ]
+        },
+        {
+            "months": "September, October",
+            "weatherIcon": "sunny",
+            "seasonName": " Dalirrgang",
+            "description": "Build Up",
+            "categories": [
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/a/3/f/7/b8656eae-afab-4627-b513-fa5d916e7f3a/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "Freshwater mangrove (Barringtonia acutangula) fruit signify it is time to hunt Gakkingga (Magpie Goose). It is a time of feasting on the floodplains. Ngamamba (Cycad nuts) are ready for harvest.\n\nMagpie Geese (Anseranas semipalmata) are nomadic with most of their floodplain habitat lying within the parks and reserves of the Top End of the Northern Territory. Magpie Geese are a nutritious source of food and culture is strengthened through hunting. Cycad (Cycas armstrongii) nuts are highly toxic and require special preparation before cooking in a ground oven",
+                    "categoryName": "Gakkingga - Magpie Goose"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/6/e/c/d/70eab998-7eb6-42d4-beed-d4d7bd52dce6/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nThe Cocky Apple drops a carpet of white flowers. Their sweet scent signals that the build-up to the wet season has arrived.\n\nCocky Apple (Planchonia careya) is used as a calendar plant to signal seasonal change. The small tree produces pinkish-white firework-shaped flowers and pear-shaped fruit.",
+                    "categoryName": "Cocky Apple"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/e/a/1/b/2a53c9e5-6da0-4955-87b2-0ec91ef4b1ae/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nThe Red Flowering Kurrajong tells you Malagujinba (sharks) are fat and ready for hunting. Gilinggilingba (Flying Foxes) take advantage of fruiting mangoes growing in the Darwin region.\n\nThe red flowering Kurrajong (Brachychiton megaphyllus) is a small woody tree that displays bright red flowers when leafless. The old people say that you can only eat mangoes after the first rains; otherwise you could get blisters in your mouth",
+                    "categoryName": "Gilinggilingba - Flying Fox"
+                }
+            ]
+        },
+        {
+            "months": "November, December",
+            "weatherIcon": "sunny",
+            "seasonName": "Balnba",
+            "description": "Rainy Season",
+            "categories": [
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://www.abc.net.au/reslib/201304/r1098109_13217131.JPG"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "Favoured shellfish are collected now from Moedoelma (the mangrove forest) including Periwinkles and Dala (Mangrove Worm). Damugula (Mud Mussels) and Danijarra (Long Bums) are collected on the mud flats as they become exposed by rain.",
+                    "categoryName": "Danijarra - Long Bums"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://images.ala.org.au/store/0/4/2/7/0e9d9648-bed5-4d7c-82c9-964ac6377240/thumbnail"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nThe start of the wet season brings on fruiting of Moerrma (Black Plum). Later in the season we collect Green Plum and Milky Plum.\n\nChildren favour the Green Plum (Buchanania obovata) and the Milky Plum (Persoonia falcata). The Black Plum (Vitex glabrata) also fruits with the first rains. There is a rush to go fishing and enjoy time outdoors before the monsoon arrives and makes travel difficult.",
+                    "categoryName": "Moerrma - Black Plum"
+                },
+                {
+                    "thumbImages": [
+                        {
+                            "url": "http://i.ebayimg.com/images/g/scQAAOSw9mFWMz6Q/s-l300.jpg"
+                        }
+                    ],
+                    "images": [
+                        
+                    ],
+                    "speciesName": "",
+                    "speciesLink": "",
+                    "description": "\nBoewitjba (Bush Potato) is collected now and can be found by its small bell-shaped flowers.\n\nThe Bush Potato (Brachystelma glabriforum) is a perennial disc-shaped tuber that is dug up, cleaned and eaten without cooking. The small dark flowers point towards other plants so it is easy to find the next tuber when collecting them.",
+                    "categoryName": "Boewitjba - Bush Potato"
+                }
+            ]
+        }
+    ],
+    "calendarId": "1690f364-3bf4-4cac-86ec-d574c0350d99",
+    "externalLink": "",
+    "imageUrl": "http://www.larrakia.csiro.au/images/calendars/CSIRO_Gulumoerrgin_(Larrakia)_seasonal-calendar_A3(print).jpg",
+    "description": "",
+    "calendarStatus": "published"
+}
