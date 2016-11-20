@@ -7,15 +7,13 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.StringWriter;
-import java.lang.reflect.UndeclaredThrowableException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
-import java.util.concurrent.ConcurrentHashMap;
 
 import org.geotools.feature.FeatureCollection;
 import org.geotools.geojson.feature.FeatureJSON;
@@ -39,8 +37,6 @@ public class GrowPalmTree {
 	static {
 		JSON_FACTORY.disable(JsonGenerator.Feature.AUTO_CLOSE_TARGET);
 	}
-
-	private final UUID id;
 
 	private static final String CALENDAR_NAME = "calendarName";
 
@@ -78,7 +74,7 @@ public class GrowPalmTree {
 	private static final String SEASONS = "seasons";
 	private static final String CALENDAR_ID = "calendarId";
 
-	private final Map<String, Object> results = new ConcurrentHashMap<>();
+	private final Map<String, Object> results = new LinkedHashMap<>();
 
 	/**
 	 * Builder for Seasonal Calendars. <br>
@@ -86,7 +82,7 @@ public class GrowPalmTree {
 	 * provide flexibility for internal redevelopment.
 	 */
 	private GrowPalmTree(UUID id) {
-		this.id = id;
+		this.results.put(CALENDAR_ID, id.toString());
 	}
 
 	/**
@@ -249,7 +245,7 @@ public class GrowPalmTree {
 	 * @return The builder object so that it can be fluently reused.
 	 */
 	public GrowPalmTree organisation(String organisationName, String contactName, String description) {
-		final Map<String, String> organisationDetails = new HashMap<>();
+		final Map<String, String> organisationDetails = new LinkedHashMap<>();
 		organisationDetails.put(ORGANISATION_NAME, organisationName);
 		organisationDetails.put(ORGANISATION_CONTACT_NAME, contactName);
 		organisationDetails.put(ORGANISATION_DESCRIPTION, description);
@@ -319,7 +315,7 @@ public class GrowPalmTree {
 
 	public GrowPalmTree season(String seasonNameEnglish, String weatherIcon, String seasonName, String seasonMonths,
 			String description, List<Map<String, Object>> features) {
-		Map<String, Object> nextSeason = new ConcurrentHashMap<>();
+		Map<String, Object> nextSeason = new LinkedHashMap<>();
 
 		nextSeason.put(SEASON_NAME_ENGLISH, seasonNameEnglish);
 		nextSeason.put(WEATHER_ICON, weatherIcon);
@@ -337,7 +333,6 @@ public class GrowPalmTree {
 	}
 
 	public void build(OutputStream out) throws IOException {
-		this.results.put(CALENDAR_ID, this.id.toString());
 		write(this.results, out);
 	}
 
