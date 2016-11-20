@@ -293,34 +293,26 @@ public class GrowPalmTree {
 		return this;
 	}
 
-	public GrowPalmTree sites(String geoJson) {
+	public GrowPalmTree sites(String geoJson) throws IOException {
 		FeatureJSON fjson = new FeatureJSON();
 
-		FeatureCollection<?, ?> fcol = null;
-		try {
-			// Verify that it is a supported structure by parsing it explicitly
-			fcol = fjson.readFeatureCollection(new ByteArrayInputStream(geoJson.getBytes(StandardCharsets.UTF_8)));
-		} catch (IOException e) {
-			throw new UndeclaredThrowableException(e);
-		}
+		// Verify that it is a supported structure by parsing it explicitly
+		FeatureCollection<?, ?> fcol = fjson
+				.readFeatureCollection(new ByteArrayInputStream(geoJson.getBytes(StandardCharsets.UTF_8)));
 
 		return sites(fcol);
 	}
 
-	public GrowPalmTree sites(FeatureCollection<?, ?> feature) {
+	public GrowPalmTree sites(FeatureCollection<?, ?> feature) throws IOException {
 		FeatureJSON fjson = new FeatureJSON();
 		StringWriter tempWriter = new StringWriter();
-		try {
-			// Use GeoTools GeoJSON module to write out the features and then
-			// parse back into a Map
-			fjson.writeFeatureCollection(feature, tempWriter);
-			Map<String, Object> fmap = read(
-					new ByteArrayInputStream(tempWriter.toString().getBytes(StandardCharsets.UTF_8)));
+		// Use GeoTools GeoJSON module to write out the features and then
+		// parse back into a Map
+		fjson.writeFeatureCollection(feature, tempWriter);
+		Map<String, Object> fmap = read(
+				new ByteArrayInputStream(tempWriter.toString().getBytes(StandardCharsets.UTF_8)));
 
-			this.results.put(SITES, fmap);
-		} catch (IOException e) {
-			throw new UndeclaredThrowableException(e);
-		}
+		this.results.put(SITES, fmap);
 
 		return this;
 	}
